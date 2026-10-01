@@ -1,0 +1,34 @@
+﻿use academia;
+
+select * from curso;
+select * from estudiante;
+select Nombres from estudiante;
+select Nombres,CodCurso from estudiante;
+select
+  estudiante.Nombres,
+  curso.Nombre
+from estudiante,curso
+where curso.CodCurso = estudiante.CodCurso;
+
+insert into curso(CodCurso,Nombre) value(1,"POO");
+insert into curso(CodCurso,Nombre) value(2,"Electricidad");
+insert into curso(Nombre) value("Cálculo");
+insert into estudiante(Nombres,Apellidos,CodCurso)
+value("Diego Arturo","Santos Prado",2);
+insert into estudiante(Nombres,Apellidos,CodCurso)
+value("Miguel Andres","Torero Valverde",1);
+
+update curso
+set Nombre="Programación Orientada a Objetos"
+where CodCurso = 1;
+
+update estudiante
+set Nombres="Miguel Antonio",
+Apellidos="Torero Velarde"
+where CodEstudiante = 3;
+
+delete from curso
+where CodCurso = 4;
+
+delete from estudiante;
+truncate estudiante;
