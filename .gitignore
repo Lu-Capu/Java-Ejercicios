@@ -1,0 +1,40 @@
+# ===== Build / compilados =====
+build/
+dist/
+out/
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.bak
+
+# ===== NetBeans =====
+nbproject/private/
+.nb-gradle/
+.netbeans_automatic_build
+*.nbm
+
+# ===== Comprimidos =====
+*.rar
+*.zip
+*.7z
+*.tar
+*.gz
+
+# ===== Librerias de terceros =====
+Conectores_Libreria/
+TemasBack/
+Plugins/
+Foros_para el otro ciclo/
+
+# ===== IDE / editores =====
+.idea/
+.vscode/
+*.swp
+
+# ===== Sistema =====
+Thumbs.db
+desktop.ini
+.DS_Store
