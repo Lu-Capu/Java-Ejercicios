@@ -38,3 +38,6 @@ Foros_para el otro ciclo/
 Thumbs.db
 desktop.ini
 .DS_Store
+
+# ===== Repos anidados =====
+.git/
